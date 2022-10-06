@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+}
+
+.logo {
+    padding: 35px;
+}
+
+.list {
+    display: flex;
+    padding-top: 35px;
+    margin-right: 122px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    gap: 100px;
+}
+
+img {
+    display: flex;
+    width: 346px;
+    height: 248px;
+    margin-right: 294px;
+}
+
+.digital {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.transformaçao-digital {
+    font-size: 27px;
+    color: #595959;
+}
+
+.notificaçao {
+    margin-left: 832px;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.button {
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #0074ff;
+    margin-top: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h4 {
+    height: 44px;
+    color: #ffffff;
+    font-size: 26px;
+    margin-left: 10px;
+}
+
+.mapouter {
+    background: #E2E0E0;
+    box-shadow: 0px 7px 30px;
+    margin-left: 345px;
+}
+
+.localizaçao {
+    padding-top: 100px;
+}
+
+#localizaçao {
+    font-size: 17px;
+    text-align: center;
+    color: #595959;
+    margin: 25px 0 40px 0;
+}
+
+.titulo {
+    margin-top: 85px;
+}
+
+.serviços {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12px;
+    margin: 0 30px 0 30px;
+}
+
+#serviços {
+    font-size: 17px;
+    text-align: center;
+    color: #595959;
+    margin: 25px 0 45px 0;
+}
+
+span {
+    color: rgba(26, 26, 26, 0.1);
+    font-size: 66px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.ux-design {
+    width: 309px;
+    height: 348px;
+    background: #0074ff;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 10px;
+    border-radius: 12px;
+}
+
+.design-list {
+    padding: 21px;
+    list-style: circle;
+    margin: 70px 0 0 15px;
+}
+
+#ux-design {
+    margin-top: 20px;
+    padding-left: 21px;
+}
+
+.front-end {
+    width: 309px;
+    height: 348px;
+    background: #0074ff;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 15px;
+    border-radius: 12px;
+}
+
+#front-end {
+    margin-top: 100px;
+    padding-left: 21px;
+}
+
+.test {
+    width: 309px;
+    height: 348px;
+    background: #0074ff;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 15px;
+    border-radius: 12px;
+}
+
+#test {
+    margin-top: 100px;
+    padding-left: 11px;
+}
+
+.delivery {
+    width: 309px;
+    height: 348px;
+    background: #0074ff;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 15px;
+    border-radius: 12px;
+}
+
+#delivery {
+    margin-top: 100px;
+    padding-left: 11px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    height: 85px;
+    background: #1a1a1a;
+    margin: 25px 0 0 15px;
+}
+
+.copyright {
+    color: #ffffff;
+    padding: 42.5px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 610px) {
+    body {
+        min-width: 375px;
+    }
+
+    .list {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav {
+        flex-direction: column;
+        width: 345px;
+        height: 175px;
+    }
+
+    img {
+        margin-top: 150px;
+    }
+
+    .digital {
+        flex-direction: column;
+    }
+    
+    .transformaçao {
+        margin-top: 45px;
+        text-align: center;
+    }
+
+    .serviços {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        margin: 0;
+        justify-content: center;
+    }
+}
